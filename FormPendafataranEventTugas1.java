@@ -38,6 +38,14 @@ public class FormPendafataranEventTugas1 extends Application {
         //Creating Buttons
         Button button1 = new Button("Kirim");
         Button button2 = new Button("Hapus");
+        
+        button1.setOnAction(e ->
+        {
+         System.out.println(textField1.getText());
+         System.out.println(textField2.getText());
+         System.out.println(textarea.getText());
+        });
+        
         //Creating a Grid Pane
         GridPane gridPane = new GridPane();
         //Setting size for the pane
