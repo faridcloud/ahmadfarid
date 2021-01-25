@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?><jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="BukuAlamat2.jnlp">
+    <information>
+        <title>BukuAlamat2</title>
+        <vendor>ASUS</vendor>
+        <description>null</description>
+        <offline-allowed/>
+    </information>
+    <update check="always"/>
+    <resources>
+        <j2se version="11.0.8+" href="http://java.sun.com/products/autodl/j2se"/>
+        <jar href="BukuAlamat2.jar" size="6541" download="eager"/>
+    </resources>
+    <jfx:javafx-desc width="800" height="600" main-class="bukualamat2.BukuAlamat2" name="BukuAlamat2"/>
+</jnlp>
+
